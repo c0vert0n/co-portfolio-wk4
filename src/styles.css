@@ -44,6 +44,9 @@ footer {
   font-family: var(--secondary-font);
   font-size: 20px;
 }
+.project-description {
+  line-height: 2rem;
+}
 .btn {
   background-color: var(--primary-btn-color);
   color: var(--secondary-btn-color);
