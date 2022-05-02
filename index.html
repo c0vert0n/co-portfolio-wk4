@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:ital@0;1&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
@@ -32,9 +32,48 @@
   <body>
     <div class="hero">
       <h1>👋 Hiya, my name is Christine</h1>
-      <h2>I am a front-end developer based in Los Angeles, California</h2>
-      <a href="#" class="btn">Contact me</a>
+      <h2 class="text-muted">
+        I am a front-end developer based in Los Angeles, California
+      </h2>
+      <a href="#" class="btn mt-3">Contact me</a>
     </div>
+    <div class="container">
+      <p class="text-center m-5">Featured projects</p>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="imgs/CYOAWhiteRabbit.png"
+            alt=""
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>CYOA: Find the White Rabbit</h2>
+          <p class="text-muted">
+            A choose your own adventure style game built using
+            HTML/CSS/JavaScript. Help Alice find the White Rabbit before the Red
+            Queen finds you!
+          </p>
+          <a href="#" class="btn project-btn">Learn more</a>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h2>Vanilla JS Weather App</h2>
+          <p class="text-muted">
+            A weather app built using HTML/CSS/JavaScript with OpenWeather API
+            that provides current and 6-day weather forecast.
+          </p>
+          <a href="#" class="btn project-btn">Learn more</a>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/WeatherApp.png" alt="" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+
     <footer class="mt-5">
       <i class="fa-brands fa-github"></i>
       <i class="fa-brands fa-github-square"></i>

@@ -2,15 +2,22 @@
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #385170;
-  --secondary-color: #aee6d9;
+  --secondary-color: rgb(173, 201, 199, 0.5);
 }
 body {
   font-family: var(--secondary-font);
+  background-color: #fff;
+  letter-spacing: 0.5px;
 }
 h1,
 h2,
 h3 {
   font-family: var(--primary-font);
+  letter-spacing: 0.5px;
+}
+img {
+  background-color: var(--secondary-color);
+  margin: 0 auto;
 }
 footer {
   text-align: center;
@@ -18,7 +25,7 @@ footer {
 }
 .hero {
   text-align: center;
-  background: #aee6d9;
+  background: var(--secondary-color);
   padding: 50px;
 }
 .hero h1 {
@@ -33,7 +40,6 @@ footer {
   background-color: #385170;
   color: #ececec;
   padding: 10px 15px;
-  margin: 10px;
   border-radius: 7px;
 }
 .btn:hover {
