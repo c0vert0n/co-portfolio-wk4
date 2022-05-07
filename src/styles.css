@@ -30,6 +30,12 @@ footer {
   h1 {
     font-size: 36px;
   }
+  .about-description {
+    text-align: center;
+  }
+  .about-btns {
+    text-align: center;
+  }
 }
 .hero {
   text-align: center;
@@ -44,16 +50,38 @@ footer {
   font-family: var(--secondary-font);
   font-size: 20px;
 }
+.about-hero {
+  text-align: left;
+  padding: 50px;
+}
 .project-description {
   line-height: 2rem;
 }
-.btn {
+img.avatar {
+  max-width: 300px;
+  image-orientation: revert;
+  margin: 0 auto;
+  display: block;
+}
+.primary-btn {
   background-color: var(--primary-btn-color);
   color: var(--secondary-btn-color);
   padding: 15px 15px;
   border-radius: 7px;
 }
-.btn:hover {
+.primary-btn:hover {
+  background-color: #142d4c;
+  color: var(--secondary-btn-color);
+  transition: ease-in-out 300ms;
+}
+.secondary-btn {
+  background-color: var(--secondary-btn-color);
+  color: var(--primary-btn-color);
+  padding: 15px 15px;
+  border-radius: 7px;
+  border: 1px solid var(--primary-btn-color);
+}
+.secondary-btn:hover {
   background-color: #142d4c;
   color: var(--secondary-btn-color);
   transition: ease-in-out 300ms;
