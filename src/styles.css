@@ -8,16 +8,18 @@
 body {
   font-family: var(--default-font);
   background-color: #fff;
-  letter-spacing: 0.5px;
 }
 h1,
 h2,
 h3 {
   font-family: var(--heading-font);
-  letter-spacing: 0.5px;
 }
 img {
+  display: block;
   margin: 0 auto;
+}
+img.avatar {
+  max-width: 300px;
 }
 footer {
   text-align: center;
@@ -47,22 +49,23 @@ footer {
   padding: 10px;
 }
 .hero h2 {
-  font-family: var(--secondary-font);
+  font-family: var(--default-font);
   font-size: 20px;
 }
-.about-hero {
+.content {
   text-align: left;
   padding: 50px;
+  font-family: var(--default-font);
+}
+.content h2,
+h3 {
+  font-family: var(--default-font);
+  font-weight: 800;
 }
 .project-description {
   line-height: 2rem;
 }
-img.avatar {
-  max-width: 300px;
-  image-orientation: revert;
-  margin: 0 auto;
-  display: block;
-}
+
 .primary-btn {
   background-color: var(--primary-btn-color);
   color: var(--secondary-btn-color);
