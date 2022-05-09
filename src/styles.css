@@ -27,7 +27,9 @@ footer {
 }
 nav {
   margin-top: 0px;
+  background-color: rgb(56, 81, 112);
 }
+
 @media (max-width: 768px) {
   .project-description {
     text-align: center;
@@ -42,10 +44,11 @@ nav {
     text-align: center;
   }
 }
-.fa-circle-half-stroke {
-  padding-right: 7px;
+.navbar-nav ul,
+li {
+  margin: 0;
+  padding: 0;
 }
-
 .hero {
   text-align: center;
   background: var(--default-color);
