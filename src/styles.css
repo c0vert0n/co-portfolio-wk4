@@ -25,6 +25,35 @@ footer {
   text-align: center;
   font-size: 30px;
 }
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+footer .email-link:hover {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--primary-btn-color);
+
+  transition: ease-in-out 250ms;
+}
+footer .social-links a {
+  margin: 20px 20px;
+  color: #254a45;
+  background: var(--default-color);
+  border-radius: 100%;
+  padding: 15px 22px;
+  font-size: 25px;
+}
+footer .social-links a:hover {
+  margin: 20px 20px;
+  color: var(--secondary-btn-color);
+  background: #254a45;
+  border-radius: 100%;
+  padding: 15px 22px;
+  font-size: 25px;
+  transition: ease-in-out 250ms;
+}
 nav {
   margin-top: 0px;
   background-color: rgb(56, 81, 112);
@@ -40,7 +69,7 @@ nav {
   .about-description {
     text-align: center;
   }
-  .about-btns {
+  .content-btns {
     text-align: center;
   }
 }
@@ -85,7 +114,7 @@ h3 {
 .primary-btn:hover {
   background-color: #142d4c;
   color: var(--secondary-btn-color);
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 250ms;
 }
 .secondary-btn {
   background-color: var(--secondary-btn-color);
@@ -97,7 +126,7 @@ h3 {
 .secondary-btn:hover {
   background-color: #142d4c;
   color: var(--secondary-btn-color);
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 250ms;
 }
 .project-btn {
   background-color: var(--secondary-btn-color);
@@ -109,5 +138,17 @@ h3 {
 .project-btn:hover {
   background-color: #142d4c;
   color: var(--secondary-btn-color);
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 250ms;
+}
+.inquiry {
+  background-color: var(--default-color);
+  padding: 26px;
+  text-align: left;
+  border-radius: 7px;
+}
+.inquiry h4 {
+  font-family: var(--heading-font);
+}
+.inquiry p {
+  font-size: 16px;
 }
