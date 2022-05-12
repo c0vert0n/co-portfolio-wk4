@@ -56,26 +56,9 @@ footer .social-links a:hover {
 }
 nav {
   margin-top: 0px;
-  background-color: rgb(56, 81, 112);
+  background-color: #fff;
 }
 
-@media (max-width: 768px) {
-  .project-description {
-    text-align: center;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  .about-description {
-    text-align: center;
-  }
-  .content-btns {
-    text-align: center;
-  }
-  img.avatar {
-    max-width: 200px;
-  }
-}
 .navbar-nav ul,
 li {
   margin: 0;
@@ -162,4 +145,25 @@ h3 {
   color: #254a45;
   text-decoration: underline;
   transition: ease-in-out 250ms;
+}
+
+@media (max-width: 768px) {
+  .project-description {
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .about-description {
+    text-align: center;
+  }
+  img.avatar {
+    max-width: 200px;
+  }
 }
