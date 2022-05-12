@@ -72,6 +72,9 @@ nav {
   .content-btns {
     text-align: center;
   }
+  img.avatar {
+    max-width: 200px;
+  }
 }
 .navbar-nav ul,
 li {
