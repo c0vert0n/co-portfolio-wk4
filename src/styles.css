@@ -152,3 +152,11 @@ h3 {
 .inquiry p {
   font-size: 16px;
 }
+.git-link {
+  color: var(--primary-btn-color);
+}
+.git-link:hover {
+  color: #254a45;
+  text-decoration: underline;
+  transition: ease-in-out 250ms;
+}
